@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid d-flex justify-content-between">
+            <i class="fa-brands fa-instagram fs-3 m-4"></i>
+            <a class="navbar-brand" href="#">Instagram</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
+              <li class="nav-item">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Caption</label>
+                            <textarea class="form-control" id="message-text">Add the caption of your post here</textarea>
+                          </div>
+                        </form>
+                        <div>
+                          <button type="button" class="btn btn-light" data-bs-dismiss="modal"><i class="fa-solid fa-camera"></i></button>
+                          <button type="button" class="btn btn-light" data-bs-dismiss="modal"><i class="fa-solid fa-location-dot"></i></button>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-danger" href="#">Log out</output></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--arreglo para grid grupal-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://www.micachorro.net/wp-content/uploads/2017/12/Gran-danes-precio-y-cachorros.jpg" class="card-img-top" alt="dogo aleman arlequin">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://cdn.dogsplanet.com/wp-content/uploads/2022/06/gran-danes-blanco-y-negro.jpg" class="card-img-top" alt="foto dogo aleman">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://portalcanino.com/wp-content/uploads/2020/11/gran-danes-manchado.jpg" class="card-img-top" alt="dogo aleman merle">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://animalesmascotas.com//wp-content/uploads/2020/06/gran-danes-de-pie-istock-600x400.jpg" class="card-img-top" alt="dogo aleman grandulon">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://s.yimg.com/uu/api/res/1.2/AeDD48pjqBIJHyyiUjBpfA--~B/aD00Mzk7dz02NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/es/hola.com/65a36b18543cf3203473ea2680c7f76a" class="card-img-top" alt="dogo aleman">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 w-100">
+            <img src="https://www.razasdeperros.com/wp-content/uploads/2020/11/perro-macho-gran-dan%C3%A9s-tumbado.jpg" class="card-img-top" alt="dogo aleman acostado merle">
+          </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b253f24cef.js" crossorigin="anonymous"></script>
+  </body>
+</html>
